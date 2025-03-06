@@ -1,12 +1,14 @@
-import GitHubCommits from "../api/githubCommit"
-
+import { Cards } from "./Cards"
+import linkedin from "../assets/linkedin.png"
 export const Reseaux = () => {
-
   return (
     <>
-      <div className="flex flex-col p-6">
-        <span>Mes reseaux</span>
-        <GitHubCommits/>
+      <div className="grid grid-cols-2 gap-4 p-6">
+        <span className="col-span-2">Mes réseaux</span>
+        <Cards srcImg={linkedin} bgCustom={""}/>
+        <Cards />
+        <Cards />
+        <Cards />
       </div>
     </>
   )
