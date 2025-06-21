@@ -1,6 +1,0 @@
-@import "tailwindcss";
-@plugin "daisyui";
-
-@theme {
-  --color-linkedln: #d4fbfc;
-}

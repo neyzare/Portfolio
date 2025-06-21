@@ -1,4 +1,4 @@
-import './App.css'
+import "./css/App.css"
 import { Avatar } from './components/avatar'
 import { Reseaux } from './components/Reseaux'
 
